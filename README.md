@@ -2,68 +2,47 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/095726e0-cd6d-4464-aa4c-8c49515b508d
+**LOVABLE URL**: https://lovable.dev/projects/095726e0-cd6d-4464-aa4c-8c49515b508d
 
-## How can I edit this code?
+**VERCEL**: https://financial-dashboard-vibecoded.vercel.app/
 
-There are several ways of editing your application.
+## 🏠 Overview
+This project is a comprehensive financial portfolio dashboard built with AI assistance. It showcases modern web development techniques, responsive design, and React best practices - all implemented through AI-powered code generation.
 
-**Use Lovable**
+## 💻 AI Development Workflow
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/095726e0-cd6d-4464-aa4c-8c49515b508d) and start prompting.
+This project showcases the power of AI-assisted development:
 
-Changes made via Lovable will be committed automatically to this repo.
+1. I began by designing the initial UI components using Lovable.dev.
 
-**Use your preferred IDE**
+2. Then, I refined the dashboard and incorporated additional financial components with the help of GitHub Copilot.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js (v16 or newer)
+- npm
+- 
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/financial-dashboard-vibecoded
 
-Follow these steps:
+# Navigate to the project directory
+cd financial-dashboard-vibecoded
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+# Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 📊 Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/095726e0-cd6d-4464-aa4c-8c49515b508d) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+The dashboard is organized into modular components:
+- Portfolio value tracking with regional breakdowns
+- ROI visualization with animated progress indicators
+- Market performance tracking across major indices
+- Recent stock transactions monitoring
+- Investment sentiment indicators
