@@ -1,11 +1,36 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Sidebar from "@/components/Sidebar";
+import Header from "@/components/Header";
+import WelcomeSection from "@/components/WelcomeSection";
+import BalanceCards from "@/components/BalanceCards";
+import ProductAnalytics from "@/components/ProductAnalytics";
+import OnlineStatus from "@/components/OnlineStatus";
+import Feedback from "@/components/Feedback";
+import RecentSales from "@/components/RecentSales";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="flex">
+      <Sidebar />
+      
+      <div className="flex-1 pl-[90px] pr-4">
+        <div className="max-w-7xl mx-auto py-6">
+          <Header />
+          
+          <div className="flex gap-6">
+            <div className="flex-1">
+              <WelcomeSection />
+              <BalanceCards />
+              <ProductAnalytics />
+              <OnlineStatus />
+            </div>
+            
+            <div className="w-80">
+              <Feedback />
+              <RecentSales />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
