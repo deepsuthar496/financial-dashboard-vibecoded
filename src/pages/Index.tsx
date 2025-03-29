@@ -13,7 +13,7 @@ const Index = () => {
     <div className="flex min-h-screen bg-gray-100">
       <Sidebar />
       
-      <div className="flex-1 pl-24">
+      <div className="flex-1 pl-4">
         <div className="max-w-[1400px] mx-auto py-6 px-6">
           <Header />
           
