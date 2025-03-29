@@ -17,17 +17,28 @@ const Index = () => {
         <div className="max-w-[1400px] mx-auto py-6 px-6">
           <Header />
           
-          <div className="flex flex-col lg:flex-row gap-6">
-            <div className="flex-1">
+          <div className="flex flex-col gap-6">
+            <div className="w-full">
               <WelcomeSection />
-              <BalanceCards />
-              <ProductAnalytics />
-              <OnlineStatus />
             </div>
             
-            <div className="w-full lg:w-80 xl:w-96 space-y-6 mt-6 lg:mt-0">
-              <Feedback />
-              <RecentSales />
+            <div className="w-full">
+              <BalanceCards />
+            </div>
+            
+            <div className="w-full">
+              <ProductAnalytics />
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="md:col-span-2">
+                <OnlineStatus />
+              </div>
+              
+              <div className="space-y-6">
+                <Feedback />
+                <RecentSales />
+              </div>
             </div>
           </div>
         </div>
