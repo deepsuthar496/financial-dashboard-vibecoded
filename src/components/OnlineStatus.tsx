@@ -1,20 +1,19 @@
+import { TrendingUp, ChevronDown, MoreHorizontal, Maximize2 } from "lucide-react";
 
-import { Wifi, ChevronDown, MoreHorizontal, Maximize2 } from "lucide-react";
-
-const OnlineStatus = () => {
+const MarketPerformance = () => {
   return (
     <div className="mb-8">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
         <div className="flex items-center">
-          <Wifi size={20} className="mr-2" />
-          <h2 className="text-lg font-bold">Online Status</h2>
+          <TrendingUp size={20} className="mr-2" />
+          <h2 className="text-lg font-bold">Market Performance</h2>
         </div>
         
         <div className="flex flex-wrap items-center gap-3">
-          <button className="px-3 py-1 rounded-full text-sm font-medium bg-purple-500 text-white">All</button>
+          <button className="px-3 py-1 rounded-full text-sm font-medium bg-purple-500 text-white">All Markets</button>
           
           <div className="flex items-center bg-white px-3 py-1 rounded-full">
-            <span className="text-sm font-medium mr-1">Month</span>
+            <span className="text-sm font-medium mr-1">Quarter</span>
             <ChevronDown size={16} />
           </div>
           
@@ -31,32 +30,32 @@ const OnlineStatus = () => {
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         <div className="status-card bg-gradient-to-b from-orange-500 to-orange-400 text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-1">2458</h2>
-          <p className="text-sm opacity-80">Visitors</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-1">24.5%</h2>
+          <p className="text-sm opacity-80">S&P 500</p>
         </div>
         
         <div className="status-card">
-          <h2 className="text-3xl md:text-4xl font-bold mb-1">756</h2>
-          <p className="text-sm text-gray-500">New Orders</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-1">7.6%</h2>
+          <p className="text-sm text-gray-500">NASDAQ</p>
         </div>
         
         <div className="status-card">
-          <h2 className="text-3xl md:text-4xl font-bold mb-1">298</h2>
-          <p className="text-sm text-gray-500">Refunds</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-1">-2.9%</h2>
+          <p className="text-sm text-gray-500">DOW</p>
         </div>
         
         <div className="status-card">
-          <h2 className="text-3xl md:text-4xl font-bold mb-1">18</h2>
-          <p className="text-sm text-gray-500">Cancellations</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-1">18.5%</h2>
+          <p className="text-sm text-gray-500">Russell 2000</p>
         </div>
         
         <div className="status-card">
-          <h2 className="text-3xl md:text-4xl font-bold mb-1">1700</h2>
-          <p className="text-sm text-gray-500">Active Users</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-1">17.0%</h2>
+          <p className="text-sm text-gray-500">NYSE</p>
         </div>
       </div>
     </div>
   );
 };
 
-export default OnlineStatus;
+export default MarketPerformance;
