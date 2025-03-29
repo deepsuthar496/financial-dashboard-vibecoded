@@ -3,7 +3,7 @@ import { Search, Bell } from "lucide-react";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center mb-8">
+    <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
       <div className="flex space-x-3">
         <button className="nav-pill active">Overview</button>
         <button className="nav-pill inactive">Member</button>
@@ -11,15 +11,15 @@ const Header = () => {
         <button className="nav-pill inactive">Payment</button>
       </div>
       
-      <div className="flex items-center space-x-4">
-        <div className="relative">
+      <div className="flex items-center space-x-4 w-full md:w-auto">
+        <div className="relative w-full md:w-auto">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <Search className="h-4 w-4 text-gray-400" />
           </div>
           <input 
             type="text" 
             placeholder="Start searching here..." 
-            className="bg-white h-10 pl-10 pr-4 rounded-full text-sm w-[300px] focus:outline-none"
+            className="bg-white h-10 pl-10 pr-4 rounded-full text-sm w-full md:w-[300px] focus:outline-none border-0"
           />
         </div>
         

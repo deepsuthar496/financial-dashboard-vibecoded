@@ -83,7 +83,7 @@
 }
 
 .sidebar-icon {
-  @apply flex items-center justify-center w-9 h-9 rounded-full bg-white text-gray-500 mx-auto my-3;
+  @apply flex items-center justify-center w-9 h-9 rounded-full bg-white text-gray-500 mx-auto my-2 hover:bg-gray-100 transition-colors cursor-pointer;
 }
 
 .sidebar-icon.active {
@@ -91,7 +91,7 @@
 }
 
 .nav-pill {
-  @apply px-5 py-2 rounded-full text-sm font-medium;
+  @apply px-4 py-1.5 rounded-full text-sm font-medium transition-colors;
 }
 
 .nav-pill.active {
@@ -99,11 +99,11 @@
 }
 
 .nav-pill.inactive {
-  @apply bg-gray-200 text-gray-700;
+  @apply bg-gray-200 text-gray-700 hover:bg-gray-300;
 }
 
 .platform-pill {
-  @apply px-5 py-2 rounded-full text-sm font-medium;
+  @apply px-4 py-1.5 rounded-full text-sm font-medium transition-colors;
 }
 
 .platform-pill.active {
@@ -111,9 +111,9 @@
 }
 
 .platform-pill.inactive {
-  @apply bg-white text-gray-700;
+  @apply bg-white text-gray-700 hover:bg-gray-100;
 }
 
 .status-card {
-  @apply flex flex-col justify-center items-center p-6 bg-white rounded-xl;
+  @apply flex flex-col justify-center items-center p-4 md:p-6 bg-white rounded-xl shadow-sm transition-transform hover:shadow-md;
 }
