@@ -7,7 +7,7 @@ const WelcomeSection = () => {
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8 bg-white p-6 rounded-xl shadow-sm">
       <div className="max-w-xl">
         <div className="flex items-center">
-          <h1 className="text-2xl md:text-3xl font-bold mb-2">Hi Richard Sugiono</h1>
+          <h1 className="text-2xl md:text-3xl font-bold mb-2">Hi Deep suthar</h1>
           <div className="ml-2 w-12 h-12 -mt-1">
             <Lottie animationData={animationData} loop={true} />
           </div>
