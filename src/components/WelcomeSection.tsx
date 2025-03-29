@@ -1,9 +1,9 @@
 
-import { CircleIcon, TargetIcon } from "lucide-react";
+import { TargetIcon } from "lucide-react";
 
 const WelcomeSection = () => {
   return (
-    <div className="flex justify-between items-start mb-8">
+    <div className="flex justify-between items-start mb-6">
       <div>
         <h1 className="text-3xl font-bold mb-2">Hi Richard Sugiono</h1>
         <p className="text-gray-600">
@@ -21,8 +21,8 @@ const WelcomeSection = () => {
         </div>
         
         <div className="flex items-center">
-          <span className="text-orange-500 text-5xl font-bold mr-2">%</span>
-          <span className="text-5xl font-bold">32</span>
+          <span className="text-orange-500 text-5xl font-bold">%</span>
+          <span className="text-5xl font-bold ml-1">32</span>
         </div>
         
         <p className="text-gray-600 text-sm mt-1">Better than last month</p>

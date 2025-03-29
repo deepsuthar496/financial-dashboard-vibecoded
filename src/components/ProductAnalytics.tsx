@@ -19,22 +19,22 @@ const ProductAnalytics = () => {
           <h2 className="text-lg font-bold">Product Analytics</h2>
         </div>
         
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-2">
           <button className="px-3 py-1 rounded-full text-sm font-medium bg-gray-100">All</button>
           <button className="platform-pill active">Shopee</button>
           <button className="px-3 py-1 rounded-full text-sm font-medium bg-white">Tokopedia</button>
           <button className="px-3 py-1 rounded-full text-sm font-medium bg-white">Amazon</button>
           
-          <div className="flex items-center ml-4 bg-white px-3 py-1 rounded-full">
+          <div className="flex items-center ml-2 bg-white px-3 py-1 rounded-full">
             <span className="text-sm font-medium mr-1">Month</span>
             <ChevronDown size={16} />
           </div>
           
-          <div className="flex items-center space-x-1">
-            <button className="p-1 rounded-lg">
+          <div className="flex items-center space-x-2 ml-2">
+            <button className="p-1">
               <Maximize2 size={18} />
             </button>
-            <button className="p-1 rounded-lg">
+            <button className="p-1">
               <MoreHorizontal size={20} />
             </button>
             <button className="flex items-center bg-white px-3 py-1 rounded-full">

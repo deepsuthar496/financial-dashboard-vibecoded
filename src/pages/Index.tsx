@@ -10,14 +10,14 @@ import RecentSales from "@/components/RecentSales";
 
 const Index = () => {
   return (
-    <div className="flex">
+    <div className="flex min-h-screen">
       <Sidebar />
       
-      <div className="flex-1 pl-[90px] pr-4">
+      <div className="flex-1 pl-[90px] pr-6">
         <div className="max-w-7xl mx-auto py-6">
           <Header />
           
-          <div className="flex gap-6">
+          <div className="flex gap-8">
             <div className="flex-1">
               <WelcomeSection />
               <BalanceCards />
@@ -25,7 +25,7 @@ const Index = () => {
               <OnlineStatus />
             </div>
             
-            <div className="w-80">
+            <div className="w-96">
               <Feedback />
               <RecentSales />
             </div>

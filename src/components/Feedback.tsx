@@ -3,13 +3,13 @@ const Feedback = () => {
   return (
     <div className="bg-white p-6 rounded-xl shadow-sm mb-6">
       <h3 className="font-medium text-gray-800 mb-2">Review Rating</h3>
-      <h2 className="text-xl font-bold mb-4">Does our dashboard help your business?</h2>
+      <h2 className="text-xl font-bold mb-6">Does our dashboard help your business?</h2>
       
-      <div className="flex mt-4 space-x-2">
-        <button className="w-10 h-10 rounded-full bg-orange-500 text-white flex items-center justify-center">
+      <div className="flex space-x-3">
+        <button className="w-12 h-12 rounded-full bg-orange-500 text-white flex items-center justify-center">
           😊
         </button>
-        <button className="w-10 h-10 rounded-full bg-gray-900 text-white flex items-center justify-center">
+        <button className="w-12 h-12 rounded-full bg-gray-900 text-white flex items-center justify-center">
           😐
         </button>
       </div>
