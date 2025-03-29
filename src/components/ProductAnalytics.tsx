@@ -72,7 +72,7 @@ const ProductAnalytics = () => {
                         width={width}
                         height={height}
                         fill={index === 2 ? "#ff6347" : "#000"}
-                        radius={[4, 4, 0, 0]}
+                        radius={4}
                       />
                     );
                   }}
