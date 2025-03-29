@@ -83,7 +83,7 @@
 }
 
 .sidebar-icon {
-  @apply flex items-center justify-center w-8 h-8 rounded-full bg-white text-gray-500 mx-auto my-2 hover:bg-gray-100 transition-colors cursor-pointer;
+  @apply flex items-center justify-center w-9 h-9 rounded-full bg-white text-gray-500 mx-auto my-2 hover:bg-gray-100 transition-colors cursor-pointer;
 }
 
 .sidebar-icon.active {
@@ -91,7 +91,7 @@
 }
 
 .nav-pill {
-  @apply px-3 py-1 md:px-4 md:py-1.5 rounded-full text-xs md:text-sm font-medium transition-colors;
+  @apply px-4 py-1.5 rounded-full text-sm font-medium transition-colors;
 }
 
 .nav-pill.active {
@@ -103,7 +103,7 @@
 }
 
 .platform-pill {
-  @apply px-3 py-1 md:px-4 md:py-1.5 rounded-full text-xs md:text-sm font-medium transition-colors;
+  @apply px-4 py-1.5 rounded-full text-sm font-medium transition-colors;
 }
 
 .platform-pill.active {
@@ -115,15 +115,5 @@
 }
 
 .status-card {
-  @apply flex flex-col justify-center items-center p-2 md:p-4 lg:p-6 bg-white rounded-xl shadow-sm transition-transform hover:shadow-md;
-}
-
-@media (max-width: 640px) {
-  .status-card h2 {
-    font-size: 1.5rem;
-  }
-  
-  .status-card p {
-    font-size: 0.7rem;
-  }
+  @apply flex flex-col justify-center items-center p-4 md:p-6 bg-white rounded-xl shadow-sm transition-transform hover:shadow-md;
 }
