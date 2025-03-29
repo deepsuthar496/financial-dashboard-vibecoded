@@ -30,16 +30,18 @@ const ProductAnalytics = () => {
             <ChevronDown size={16} />
           </div>
           
-          <button className="p-1 rounded-lg">
-            <MoreHorizontal size={20} />
-          </button>
-          <button className="p-1 rounded-lg">
-            <Maximize2 size={18} />
-          </button>
-          <button className="flex items-center bg-white px-3 py-1 rounded-full">
-            <Filter size={16} className="mr-1" />
-            <span className="text-sm font-medium">Filter</span>
-          </button>
+          <div className="flex items-center space-x-1">
+            <button className="p-1 rounded-lg">
+              <Maximize2 size={18} />
+            </button>
+            <button className="p-1 rounded-lg">
+              <MoreHorizontal size={20} />
+            </button>
+            <button className="flex items-center bg-white px-3 py-1 rounded-full">
+              <Filter size={16} className="mr-1" />
+              <span className="text-sm font-medium">Filter</span>
+            </button>
+          </div>
         </div>
       </div>
       
@@ -61,7 +63,7 @@ const ProductAnalytics = () => {
                 <Bar 
                   dataKey="value" 
                   fill="#000" 
-                  radius={[4, 4, 0, 0]}
+                  radius={4}
                   barSize={30}
                   shape={(props) => {
                     const { x, y, width, height, index } = props;
