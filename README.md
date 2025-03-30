@@ -19,8 +19,7 @@ This project showcases the power of AI-assisted development:
 
 ### Prerequisites
 - Node.js (v16 or newer)
-- npm
-- 
+- npm  
 ### Installation
 ```bash
 # Clone the repository
